@@ -6,5 +6,5 @@ import vaadin.scala.internal.UriFragmentChangedListener
 import vaadin.scala.server.Page
 
 class HelloScaladinUI extends UI {
-  content = Button("Click me ", Notification.show("Hello, Scaladin"))
+  content = Button("Click me", Notification.show("Hello, Scaladin"))
 }

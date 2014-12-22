@@ -74,3 +74,5 @@ lazy val utils = (project in file("utils")).settings(libraryDependencies ++= com
 //lazy val app = (project in file("app")).settings(vaadinWebSettings: _*).settings(libraryDependencies ++= vaadinDependencies).dependsOn(constants,utils)
 
 lazy val root = (project in file(".")).settings(vaadinWebSettings: _*).settings(libraryDependencies ++= vaadinDependencies).aggregate(constants, utils)
+
+//port in container.Configuration := 3002
