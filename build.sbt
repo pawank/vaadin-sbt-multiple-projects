@@ -16,15 +16,17 @@ val commonlibraryDependencies = Seq(
     )
 
 val vaadinDependencies = commonlibraryDependencies ++ Seq(
+    Common.vaadin, Common.vaadinClientCompiled, Common.vaadinThemes,Common.servletApi, Common.portletApi,Common.jettyAll, Common.jettyWebappContainer, Common.jettyPlusContainer, Common.jettyAnnotationsContainer
+    /*
     "com.vaadin" % "vaadin-server" % "7.1.12",
     "com.vaadin" % "vaadin-client-compiled" % "7.1.12",
     "com.vaadin" % "vaadin-themes" % "7.1.12",
     "javax.servlet" % "servlet-api" % "2.4" % "provided",
     "org.eclipse.jetty.aggregate" % "jetty-all" % "9.1.0.v20131115",
-    //"org.eclipse.jetty" % "jetty-webapp" % "7.3.0.v20110203" % "container",
     "org.eclipse.jetty" % "jetty-webapp" % "9.1.0.v20131115" % "container",
     "org.eclipse.jetty" % "jetty-plus" % "9.1.0.v20131115" % "container",
     "org.eclipse.jetty" % "jetty-annotations" % "9.1.0.v20131115" % "container"
+    */
     )
 
 organization := Common.organizationName
